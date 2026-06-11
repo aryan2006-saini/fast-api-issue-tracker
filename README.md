@@ -110,7 +110,7 @@ pip install -r requirements.txt
 ### Run Server
 
 ```bash
-uvicorn fastapi_issue_tracker:app --reload
+uvicorn main:app --reload
 ```
 
 ### Open Swagger Docs
@@ -126,7 +126,7 @@ http://127.0.0.1:8000/docs
 ```text
 fast-api-issue-tracker/
 │
-├── fastapi_issue_tracker.py
+├── main.py
 ├── requirements.txt
 │
 └── app/
